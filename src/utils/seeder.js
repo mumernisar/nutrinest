@@ -20,12 +20,12 @@ const seed = async () => {
   const admin = await User.create({ username:'admin', email:'admin@nutrinest.app',
     password:'Admin1234', role:'admin', isVerified:true, isActive:true });
 
-  const nutritionist = await User.create({ username:'dr_sara', email:'sara@nutrinest.app',
+  const nutritionist = await User.create({ username:'malikasad', email:'malikasad@nutrinest.app',
     password:'Admin1234', role:'nutritionist', isVerified:true, isActive:true,
     nutritionistProfile: { bio:'Registered dietitian with 10 years of experience.',
       credentials:'MSc Nutrition, RD', specializations:['weight-loss','diabetic diet','sports nutrition'] } });
 
-  const user = await User.create({ username:'aisha_noor', email:'aisha@nutrinest.app',
+  const user = await User.create({ username:'mumernisar', email:'mumernisar@nutrinest.app',
     password:'Admin1234', role:'user', isVerified:true, isActive:true });
 
   console.log('Users created.');
@@ -80,8 +80,8 @@ const seed = async () => {
   console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log('Seed complete! Demo credentials:');
   console.log('  Admin:        admin@nutrinest.app / Admin1234');
-  console.log('  Nutritionist: sara@nutrinest.app  / Admin1234');
-  console.log('  User:         aisha@nutrinest.app / Admin1234');
+  console.log('  Nutritionist: mumernisar@nutrinest.app  / Admin1234');
+  console.log('  User:         malikasad@nutrinest.app / Admin1234');
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');
 
   await mongoose.disconnect();

@@ -1,7 +1,7 @@
 # NutriNest — Recipe & Meal Planning REST API
 
 > CSC337 Advanced Web Technologies SP26 | Midterm Lab CLO4
-> Group: Aisha Noor (FA23-BSE-041) & Omar Tariq (FA23-BSE-056)
+> Group: Muhammad Umer (FA23-BSE-118) & Malik Asad Naeem (FA23-BSE-127)
 > GitHub: https://github.com/mumernisar/nutrinest
 
 ## Quick Start
@@ -20,8 +20,8 @@ npm run dev                # starts on http://localhost:5000
 | Role         | Email                   | Password  |
 |--------------|-------------------------|-----------|
 | Admin        | admin@nutrinest.app     | Admin1234 |
-| Nutritionist | sara@nutrinest.app      | Admin1234 |
-| User         | aisha@nutrinest.app     | Admin1234 |
+| Nutritionist | malikasad@nutrinest.app      | Admin1234 |
+| User         | mumernisar@nutrinest.app     | Admin1234 |
 
 ## Tech Stack
 
